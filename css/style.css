@@ -1,23 +1,23 @@
 /* FOGLIO DI STILE */
 
 main {
-      border: 2px solid rgb(160, 87, 242);
+      /* border: 2px solid rgb(160, 87, 242); */
 }
 
 section {
-      border: 2px solid rgb(20, 66, 142);
+      /* border: 2px solid rgb(20, 66, 142); */
 
 
 }
 
 article {
-      border: 2px solid rgb(27, 152, 40);
+      border: 1px solid black;
       background-color: rgb(195, 195, 195);
       display: inline-block;
       position: relative;
       height: 600px;
       padding: 10px;
-  }
+}
 
 .scontomedio {
       border: 1px solid black;
@@ -29,7 +29,7 @@ article {
       padding-left: 5px;
       padding-right: 5px;
       font-size: 30px;
-    }
+}
 
 .scontobasso {
       border: 1px solid black;
@@ -41,16 +41,18 @@ article {
       padding-left: 5px;
       padding-right: 5px;
       font-size: 30px;
-
 }
 
 .cuore  {
-      /* display: none; */
-      display: block;
+      display: none;
+      /* display: block; */
       width: 60px;
       height: 60px;
       position: absolute;
+      bottom:30px;
       left: 50%;
       padding-top: 20px;
-
-  }
+}
+article:hover .cuore {
+      display: block;
+}
