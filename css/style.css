@@ -12,12 +12,10 @@ section {
 
 article {
   border: 2px solid rgb(27, 152, 40);
+  background-color: rgb(195, 195, 195);
   display: inline-block;
+  position: relative;
+  height: 600px;
+  padding: 10px;
 
-
-
-}
-
-img {
-  display: none;
 }
