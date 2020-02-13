@@ -1,0 +1,23 @@
+/* FOGLIO DI STILE */
+
+main {
+  border: 2px solid rgb(160, 87, 242);
+}
+
+section {
+  border: 2px solid rgb(20, 66, 142);
+
+
+}
+
+article {
+  border: 2px solid rgb(27, 152, 40);
+  display: inline-block;
+
+
+
+}
+
+img {
+  display: none;
+}
